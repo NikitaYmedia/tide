@@ -34,7 +34,7 @@ export default function Navbar() {
         <>
             <nav className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
                 <div className="navbar-inner">
-                    <a href="#" className="logo" onClick={closeMenu}>NØRTH</a>
+                    <a href="#" className="logo" onClick={closeMenu}>TIDE</a>
                     <div className="nav-links">
                         <a href="#about">ABOUT</a>
                         <a href="#work">FOLLOW</a>
