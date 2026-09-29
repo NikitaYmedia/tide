@@ -37,7 +37,7 @@ export default function Navbar() {
                     <a href="#" className="logo" onClick={closeMenu}>NØRTH</a>
                     <div className="nav-links">
                         <a href="#about">ABOUT</a>
-                        <a href="#journey">FOLLOW</a>
+                        <a href="#work">FOLLOW</a>
                         <a href="#contact">CONTACT</a>
                     </div>
                     <button
@@ -53,7 +53,7 @@ export default function Navbar() {
             <div className={`mobile-menu ${menuOpen ? "mobile-menu-open" : ""}`}>
                 <div className="mobile-menu-content">
                     <a href="#about" onClick={closeMenu}>ABOUT</a>
-                    <a href="#journey" onClick={closeMenu}>FOLLOW</a>
+                    <a href="#work" onClick={closeMenu}>FOLLOW</a>
                     <a href="#contact" onClick={closeMenu}>CONTACT</a>
                     <div className="mobile-menu-footer">
                         <span>THE ART OF SLOW LIVING</span>
